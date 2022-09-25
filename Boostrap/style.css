@@ -1,0 +1,54 @@
+.container {
+  /* border: solid 1px red; */
+}
+
+:root {
+  --background-color: hsl(213deg 9% 23%);
+  --text-link-nav-color: hsl(133deg 60% 41%);
+  --text-link-nav-color-gray: hsl(193deg 5% 61%);
+  --button-js-color: hsl(193deg 5% 61%);
+  --button-react-color: hsl(188deg 78% 40%);
+  --content-calendar-color: hsl(213deg 9% 23%);
+  --button-speaker-color: hsl(213deg 9% 23%);
+  --footer-color: hsl(213deg 9% 23%);
+}
+
+.navbar{
+    background-color: var(--background-color);
+}
+
+footer{
+    /* background-color: var(--background-color); */
+    background:linear-gradient(to left,var(--background-color),var(--button-react-color));
+}
+
+.uppercase{
+text-transform: uppercase;
+}
+#placeanddate{
+  background-color: var(--background-color);
+}
+#placeanddate button{
+  background-color: var(--background-color);
+}
+.fs-8{
+  font-size: 10px;
+}
+#carouselExampleSlidesOnly img {
+  opacity: 0.5;
+
+}
+#carouselExampleSlidesOnly{
+  background-color: black;
+
+}
+
+nav a:hover{
+ color:white;
+}
+
+@media (max-width: 600px) {
+  #info{
+    display: none;
+  }
+}
