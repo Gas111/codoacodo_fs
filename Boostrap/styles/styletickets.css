@@ -1,0 +1,25 @@
+main{
+
+}
+
+@media (min-width: 600px) {
+    main{
+         max-width: 20%; 
+
+    }
+  }
+
+.green{
+    border: 1px solid green;
+}
+
+.blue{
+    border: 1px solid blue;
+}
+.orange{
+    border: 1px solid orange;
+}
+
+.col-gap {
+    column-gap: 2rem;
+  }
